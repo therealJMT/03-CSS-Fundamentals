@@ -16,6 +16,7 @@ body {
   padding-right: 40px;*/
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 aside {
@@ -23,6 +24,7 @@ aside {
   border-top: 5px solid #861a22;
   border-bottom: 5px solid #861a22;
   padding: 50px 0;
+  width: 500px;
 }
 
 article {
@@ -144,6 +146,11 @@ a {
   color: red;
 }
 /* Resolving conflicts */
+
+.post-img{
+  width: 100%;
+  height: auto;
+}
 
 #copyright {
   color: red;
