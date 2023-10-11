@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #861a22;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  /*padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;*/
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #861a22;
+  border-bottom: 5px solid #861a22;
+  padding: 50px 0;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  color: #861a22;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+.post-header {
+  margin-bottom: 10px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #861a22;
+  border-bottom: 5px solid #861a22;
+}
+
+/*.first-li {
+  font-weight: bold;
+}*/
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* Misconception: this won´t work! */
+article p:first-child {
+  color: red;
+}
+
+/* Syling links */
+a:link {
+  color: #861a22;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #861a22;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orange;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+a {
+  color: red;
+}
+/* Resolving conflicts */
+
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+}
