@@ -8,7 +8,9 @@ body {
   font-family: sans-serif;
   border-top: 10px solid #861a22;
 }
-
+.container {
+  width: 700px;
+}
 .main-header {
   background-color: #f7f7f7;
   /*padding: 20px;
